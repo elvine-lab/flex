@@ -1,0 +1,148 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 20px 50px;
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 100px 50px;
+}
+
+.hero-content {
+    max-width: 40%;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.hero p {
+    margin: 10px 0;
+    color: #d1d5db;
+}
+
+.hero button {
+    background-color: #3882f6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero-image {
+    background-color: #6b7280;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* Info Section */
+.info {
+    text-align: center;
+    padding: 50px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.info-box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+/* Testimonial */
+.testimonial {
+    background-color: #e5e7eb;
+    padding: 50px;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.testimonial cite {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* CTA Section */
+.cta {
+    background-color: #3882f6;
+    color: white;
+    padding: 40px 80px;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+.cta-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta button {
+    background-color: white;
+    color: #3882f6;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f2937;
+    color: white;
+}
